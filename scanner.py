@@ -45,3 +45,5 @@ if "smtplib" in virus:
 if "popen" in virus:
 	print("критичная опасность")
 	print("причина: удалённо отправляет команды вашему пк, признак rat")
+if input()=="":
+    print("")
